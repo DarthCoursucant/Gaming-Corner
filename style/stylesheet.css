@@ -478,6 +478,8 @@ html, body {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    padding-top: 50px;
+    margin-top: 80px;
   }
 
   .price {

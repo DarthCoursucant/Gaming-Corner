@@ -155,8 +155,12 @@ html, body {
   .hero-image7 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images4.alphacoders.com/131/1313954.jpeg")
   }
+
+  .hero-image8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c4.wallpaperflare.com/wallpaper/903/766/544/movies-space-star-wars-millennium-falcon-wallpaper-preview.jpg")
+  }
   
-  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7 {
+  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8 {
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +187,7 @@ html, body {
   height: 500px;
   }
   
-  .hero-image5, .hero-image6, .hero-image7 {
+  .hero-image5, .hero-image6, .hero-image7, .hero-image8 {
     width: 500px;
     height: 400px;
   }

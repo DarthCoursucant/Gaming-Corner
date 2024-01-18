@@ -110,12 +110,12 @@ html, body {
   }
 
   /*Text Align Center Align*/
-    .page-header a, .flex-parent > div, .hero-text, .hero-text1, .hero-text2, .hero-text3, .flex-parent a, .search-container, .icon-button, .funko-button, .fungo-page-title, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8 {
+    .page-header a, .flex-parent > div, .hero-text, .hero-text1, .hero-text2, .hero-text3, .flex-parent a, .search-container, .icon-button, .funko-button, .fungo-page-title, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-text11 {
     text-align: center;
   }
   
   /*Text Decoration None Classes*/
-.page-header a, .flex-parent a, .icon-button a, .funko-button a, .hero-text5, .hero-text6, .hero-text7, .hero-text8  {
+.page-header a, .flex-parent a, .icon-button a, .funko-button a, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-text11 {
     text-decoration: none;
   }
   
@@ -157,10 +157,22 @@ html, body {
   }
 
   .hero-image8 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c4.wallpaperflare.com/wallpaper/903/766/544/movies-space-star-wars-millennium-falcon-wallpaper-preview.jpg")
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/MRI4xt8iJOk/maxresdefault.jpg")
+  }
+
+  .hero-image9 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.soundandrecording.de/app/uploads/2017/02/sessiondesk_logo.jpg")
+  }
+
+  .hero-image10 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.pbs.org/video-assets/9M1OT5O-asset-mezzanine-16x9-SZ2mk8S.jpg")
+  }
+
+  .hero-image11 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.comic-con.org/uploads/2023/10/museum-entrance-hero-1024x679-1.webp")
   }
   
-  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8 {
+  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11 {
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
@@ -168,10 +180,10 @@ html, body {
     position: relative;
   }
   
-  .hero-image, .hero-image1, .hero-image2 {
+  .hero-image, .hero-image1, .hero-image2, .hero-image8, .hero-image9, .hero-image10, .hero-image11 {
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .hero-image3 {
@@ -187,14 +199,15 @@ html, body {
   height: 500px;
   }
   
-  .hero-image5, .hero-image6, .hero-image7, .hero-image8 {
+  .hero-image5, .hero-image6, .hero-image7 {
     width: 500px;
     height: 400px;
   }
   
-  .hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8 {
+  .hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-text11 {
     color: #ffffff;
   }
+
   
   /*All The Flex Properties */
   .around { 

@@ -21,9 +21,11 @@ function search() {
   }
 
   function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+    console.log("Opening the nav");
+    document.getElementById("mymenu").style.width = "100%";
   }
   
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    console.log("Closing the nav");
+    document.getElementById("mymenu").style.width = "0";
   }

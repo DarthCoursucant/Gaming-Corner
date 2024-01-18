@@ -408,6 +408,10 @@ html, body {
   }
 
 /*Menu Code */
+#mymenu {
+  width: 0;
+}
+
   .menubar {
     height: 100%;
     width: 100%;

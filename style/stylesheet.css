@@ -1,0 +1,404 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #045d5d; /* 2. Same as header and footer, does not worj in codepen*/
+  }
+  
+  body {
+    /*min-height: 100%; /* Use if set on container, not body */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header.page-header, footer.page-footer {
+    flex-grow: 0; /* 0. Only takes the place it needs */
+    flex-shrink: 0;
+    color: #fafafa;
+    background-color: #045d5d;
+    padding: 20px;
+  }
+  
+  main.page-body {
+    flex-grow: 1; /* 1. Let main take all available space */
+    padding: 0 10px;
+    background-color: #fafafa;
+    color: black;
+  }
+  
+  /* Header Settings */
+  .page-header {
+    overflow: hidden;
+    background-color: #ed0404;
+    margin: 8px;
+    height: 145px;
+  }
+
+  /* Links In Header Code */
+.page-header a {
+    color: black;
+    padding: 10px;
+    font-size: 17px; 
+    line-height: 25px;
+    margin: 10px;
+  }
+  
+  /* Background Of Links In Header While Hoover */
+  .page-header a:hover {
+    background-color: #C0A9BD;
+    color: black;
+  }
+  
+  /* Active Link In Header*/
+  .page-header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+   /* Logo Position Setting */
+   .header-left {
+    padding: -25px;
+    border-radius: 30px;
+    background-color: purple;
+    border: 3px solid #000000;
+    margin-left: 20px;
+    margin-top: -15px;
+  }
+  
+  .icons-header {
+    float: right;
+    margin-top: -70px;
+  }
+  
+  .icons-header img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .header-left {
+    margin-top: -20px;
+    margin-left: 115px;
+    display: block;
+  }
+  
+  /*Input Search Box Code*/
+  input[type="text"] {
+    padding: 10px;
+    font-size: 15px;
+    width: 350px;
+    margin-left: -480px;
+    margin-top: 20px;
+    
+  }
+  
+  /*Submitt Search Comment Button Code*/
+  button {
+    padding: 12px 15px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    border-radius: 15px;
+  }
+  
+  /*The Search Button While Hovering*/
+  button:hover, #location:hover, #phone:hover, #email:hover {
+    background-color: #45a049;
+  }
+
+  /*Text Align Center Align*/
+.small-button, .page-header a, .flex-parent > div, .hero-text, .hero-text1, .hero-text2, .hero-text3, .flex-parent a, .search-container, .icon-button, .funko-button, .fungo-page-title, .hero-text4, .hero-text5, .hero-text6, .hero-text7 {
+    text-align: center;
+  }
+  
+  /*Text Decoration None Classes*/
+  .small-button a, .page-header a, .flex-parent a, .icon-button a, .funko-button a, .hero-text5, .hero-text6, .hero-text7  {
+    text-decoration: none;
+  }
+  
+  /*Float Left Classes */
+  .headerbutton, .page-header a, .header-left {
+    float: left;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.cnn.com/api/v1/images/stellar/prod/i-stock-1287493837-1.jpg?c=16x9&q=w_800,c_fill')
+  }
+  
+  .hero-image1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.mos.cms.futurecdn.net/MuHXJCguraXv9UiUQoHsBo.jpg')
+  }
+  
+  .hero-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=612x612&w=0&k=20&c=E9xnbAZoBS5LlUX0q-zxT_3m6gEZpyB2k51_U4LLMNs=')
+  }
+  
+  .hero-image3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.visitfinland.com/dam/jcr:5359feff-f17f-468c-bc04-98e5f71a7d20/Northern%20Lights_mirror%20aurora_autumn%20-%20Markus%20Kiili_optimized.jpg")
+  }
+  
+  .hero-image4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.arabamerica.com/wp-content/uploads/2021/11/video-game-genres1597871118726439.jpg")
+  }
+  
+  .hero-image5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/star-wars-sith-chromebook-wallpaper.jpg")
+  }
+  
+  .hero-image6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.alphacoders.com/133/1338834.png")
+  }
+  
+  .hero-image7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images4.alphacoders.com/131/1313954.jpeg")
+  }
+  
+  .hero-image, .hero-image1, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7 {
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-image, .hero-image1, .hero-image2 {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .hero-image3 {
+    width: 1400px;
+    height: 360px;
+    padding-left: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .hero-image4 {
+  width: 1430px;
+  height: 500px;
+  }
+  
+  .hero-image5, .hero-image6, .hero-image7 {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6, .hero-text7 {
+    color: #ffffff;
+  }
+  
+  /*All The Flex Properties */
+  .around { 
+    justify-content: space-around; 
+  }
+  
+  .row { 
+    flex-direction: row; 
+  }
+  
+  .wrap { 
+  flex-wrap: wrap; 
+  }
+  
+  .nowrap { 
+  flex-wrap: nowrap; 
+  }
+  
+  .reverse { 
+  flex-wrap: wrap-reverse; 
+  }
+  
+  /*Code For The Buttons In Adds On The Site*/
+  .small-button {
+    width: 300px;
+    border: 2px solid #ed0404;
+    background-color: #ffffff;
+    margin-top: -2px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  /*Code For The Links Buttons In Adds On The Site*/
+  .small-button a {
+    color: #000000;
+    display: flex;
+  }
+  
+  /*Icon Button Code*/
+  .icon-button, .funko-button {
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .icon-button {
+    width: 120px;
+  }
+  
+  .icon-button {
+    margin-left: -15px;
+  }
+  
+  .funko-button {
+    width: 120px;
+  }
+  
+  .icon-button a, .funko-button a {
+    color: #000000; 
+  }
+  
+  .funko-button a {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .icon-button {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  
+  .funko-button {
+    margin-left: 30px;
+  }
+  
+  /*Asisment Of The Icons*/
+  #icon {
+    padding-left: 15px;
+  }
+  
+  .fungo-page-title {
+  font-size: 30px;
+  }
+  
+  /*Icon Size Code*/
+  .flex-icons img {
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+  }
+  
+  /*Flex Box To Icons*/
+  .flex-icons {
+    display: flex;
+    padding-top: 20px;
+    margin-inline: auto;
+  }
+  
+  .flex-icons > div {
+    padding: -50px;
+  }
+  
+  .flex-icons1 {
+    display: flex;
+  }
+  
+  .flex-icons1 img {
+    width: 150px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-inline: auto;
+    border-radius: 15px;
+  }
+  
+  /*Icons Placement*/
+  .flex-icons > div {
+    padding-left: 20px;
+  }
+  
+  /*Flex Setting To Hero Images*/
+  .flex-parent {
+    display: flex;
+    padding-top: 40px;
+  }
+  
+  /*Hero Images Flex Main Setting*/
+  .flex-parent > div {
+    font-family: monospace;
+    width: 300px;
+    height: 200px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  
+  .flex-parent {
+    margin-top: 40px;
+  }
+  
+  .flex-parent a {
+    font-size: 17px; 
+    line-height: 25px;
+    border: 2px solid #ed0404;
+  }
+  
+  .flex-parent a {
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #000000;
+  }
+  
+  .flex-parent a:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .flex-parent {
+    display: flex;
+    padding-top: 40px;
+  }
+  
+  .flex-icons1 {
+    background-color: chocolate;
+    border-radius: 15px;
+  }
+  
+  /*Flex Color*/
+  .flex-contact {
+  display: flex; 
+  background-color: #6abe97;
+  }
+  
+  .flex-contact > div {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  border-radius: 15px;
+  margin-inline: auto;
+  }
+  
+  .flex-contact > div {
+  width: 340px;
+  height: 100px;
+  }
+  
+  .flex-parent {
+    padding-bottom: 20px;
+  }
+  
+  .flex-icons1 a {
+    padding-bottom: 40px;
+  }
+  
+  .flex-designer {
+    display: flex;
+    background-color: #ed0404;
+    padding: 20px;
+  }
+  
+  .flex-designer img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .flex-designer {
+    margin-top: 20px;
+  }

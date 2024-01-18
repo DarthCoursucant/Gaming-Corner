@@ -110,12 +110,12 @@ html, body {
   }
 
   /*Text Align Center Align*/
-.small-button, .page-header a, .flex-parent > div, .hero-text, .hero-text1, .hero-text2, .hero-text3, .flex-parent a, .search-container, .icon-button, .funko-button, .fungo-page-title, .hero-text4, .hero-text5, .hero-text6, .hero-text7 {
+    .page-header a, .flex-parent > div, .hero-text, .hero-text1, .hero-text2, .hero-text3, .flex-parent a, .search-container, .icon-button, .funko-button, .fungo-page-title, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8 {
     text-align: center;
   }
   
   /*Text Decoration None Classes*/
-  .small-button a, .page-header a, .flex-parent a, .icon-button a, .funko-button a, .hero-text5, .hero-text6, .hero-text7  {
+.page-header a, .flex-parent a, .icon-button a, .funko-button a, .hero-text5, .hero-text6, .hero-text7, .hero-text8  {
     text-decoration: none;
   }
   
@@ -192,7 +192,7 @@ html, body {
     height: 400px;
   }
   
-  .hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6, .hero-text7 {
+  .hero-text, .hero-text1, .hero-text2, .hero-text3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8 {
     color: #ffffff;
   }
   
